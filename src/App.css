@@ -1,0 +1,167 @@
+
+p{
+  font-family: inter;
+}
+.main {
+  background-color:  #171825;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 8px;
+}
+.chatdiv{
+  background-color: #11121C;
+  border-radius: 7px;
+}
+.chatbox{
+  padding-top: 100px;
+}
+.topbtn{
+  background-color: transparent;
+  color: #C2D24B;
+  border-radius: 5px;
+  border: 1px solid #C2D24B;
+  font-size: 12px;
+  padding: 3px 9px;
+}
+.topbtn img{
+  width: 19px;
+  margin-right: 5px;
+}
+img.profile {
+  width: 22px;
+  border-radius: 50%;
+}
+.para {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  font-family: inter;
+  line-height: 27px;
+}
+.react-switch-bg svg{
+  display: none !important;
+  }
+  .react-switch-bg {
+    height: 20px !important;
+    width: 48px !important;
+  }
+  .react-switch-handle {
+    height: 19px !important;
+    width: 18px !important;
+  }
+  .switch-btn{
+    line-height: 35px;
+  }
+  .avatar{
+    font-size: 12px;
+    color: rgb(230, 224, 224);
+    font-family: inter;
+    margin-left: -22px ;
+    line-height: 27px;
+  }
+  .senderchat {
+    margin-right: 13px;
+    background: #171825;
+    border-radius: 3px;
+  padding: 3px 0px ;
+  margin-left: 15px;
+
+
+}
+.sendpara{
+ font-size: 12px;
+    color: #cccccc;
+  padding: 3px 0px ;
+  margin-bottom: 0px;
+}
+
+.receiverchat {
+  background-color: #2E2F45;
+  max-width: 554px;
+  border-radius: 3px;
+  margin-left: 15px;
+  padding: 3px 0px ;
+
+}
+p.receivepara {
+  font-size: 12px;
+  color: #a6a6a6;
+  margin-bottom: 0px;
+  padding: 3px 0px;
+}
+.icons{
+  width: 20px;
+  margin-left: 3px;
+}
+.inputicon{
+  margin-left: -22px;
+}
+.form-control {
+  background: #2e2f45;
+  border: none;
+  font-size: 13px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.form-control:focus {
+  color: #a6a6a6;
+  border-color: none;
+  background: #2e2f45;
+  outline: 0;
+  box-shadow: none !important;
+}
+.form-control::placeholder{
+color: #a6a6a6;
+font-size: 13px;
+}
+.sendimg {
+  background: #2e2f45;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-right: 5px;
+}
+.mobilehide{
+  display: block !important;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .mobilehide{
+    display: none !important;
+  }
+}
+@media only screen and  (min-device-width: 375px) and (max-device-width: 767px) {
+  .mobilehide{
+    display: none !important;
+  }
+  .icons {
+    width: 14px;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+p.receivepara ,.sendpara {
+  font-size: 9px;
+}
+.receiverchat,.senderchat {
+  margin-left: 8px;
+}
+.form-control{
+  margin-left: -8px;
+  font-size: 9px;
+}
+.sendimg,.inputicon{
+  margin-left: -2px;
+}
+.para{
+  font-size: 7px;
+}
+.react-switch-handle {
+  height: 16px !important;
+  width: 14px !important;
+}
+.react-switch-bg {
+  height: 19px !important;
+  width: 29px !important;
+}
+}

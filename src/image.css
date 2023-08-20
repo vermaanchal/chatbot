@@ -1,0 +1,55 @@
+
+.background-image {
+    width: 96%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .image-active {
+    opacity: 1;
+    background-image: url('../public/images/srkavatar.png'); 
+  }
+  
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .toggle-switch input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .slider:before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+  }
+  
+  input:checked + .slider {
+    background-color: #C2D24B;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
